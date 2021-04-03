@@ -1,4 +1,7 @@
-# Program to find if number is even or odd
+def check_even(number):
+    even_lam = lambda a: a % 2 == 0
+    return even_lam(number)
 
-even_lam = lambda a: a % 2 == 0
-print(even_lam(2))
+
+print(check_even(2))
+

@@ -7,6 +7,7 @@
 from typing import Any, Callable, Union
 
 list1 = list(range(50, 200, 3))
+print(list1)
 div_4 = lambda x: x % 4 == 0
 list2 = list(filter(div_4, list1))
 print(list2)

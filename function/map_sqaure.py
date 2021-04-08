@@ -9,3 +9,11 @@ print(result)
 #converting map object to tuple
 numsquare=tuple(result)
 print(numsquare)
+
+#
+#number=[2,4,6,8]
+#result=map(lambda x:x*x,number)
+#print(result)
+#converting map object to tuple
+#numsquare=tuple(result)
+#print(numsquare)

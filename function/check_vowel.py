@@ -6,7 +6,8 @@ def checkvowelinname(name):
 
     for letter in name:
         if letter=='a' or letter=='e' or letter=='i' or letter=='o' or letter=='u':
-            continue                #continue statement skips the statement after it
+            continue
+            #continue statement skips the statement after it
         else:
             print(letter,end=" ")
 

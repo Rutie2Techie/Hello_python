@@ -2,6 +2,6 @@
 
 values=[3,14,7,2,7,9]
 from functools import reduce
-max=reduce(lambda x,y:x if x>y else y,values)
+max=reduce(lambda x,y:x if x>y else y,values)  #reduce return only one element in output
 print("maximum number from list is:",end=" ")
 print(max)

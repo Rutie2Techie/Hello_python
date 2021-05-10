@@ -9,3 +9,8 @@ print(list1)
 print('----------*----------')
 list1.extend([23,76])
 print(list1)
+
+list1.reverse()      #reversed the list
+print(list1)
+
+list1.pop()  #removed last element from list
